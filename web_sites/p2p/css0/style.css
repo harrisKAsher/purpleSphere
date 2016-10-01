@@ -1,0 +1,53 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+    background-image: url("/web_sites/p2p/images/bg.jpg") ;
+    background-size: cover;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+
+  color: white;
+}
+
+
+#foot {
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+   footer ul li.hor { 
+    display: inline;
+    padding: 15px; 
+    list-style-type: none;
+       left: 10px;
+} 
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    footer ul li.hor { 
+    padding: 0px;   
+    list-style-type: none;
+}
+}
+#footer_right {
+    position: relative;
+    right: 20px;
+}
+
+
+
+.title {
+    text-align: center;
+}
+

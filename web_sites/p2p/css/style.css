@@ -1,0 +1,86 @@
+@font-face
+{
+font-family: go3v2;
+src: url(/web_sites/p2p/fonts/go3v2.ttf);
+}
+html {
+  position: relative;
+  min-height: 100%;}
+h1, h2, h3, h4, h5, h6 {
+    font-family: go3v2, Arial, sans-serif;
+     letter-spacing: 5px;}
+body {
+  margin-bottom: 60px;
+    background-image: url("/web_sites/p2p/images/bg.jpg") ;
+    background-size: cover;}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;}
+#foot {
+    text-align: center;}
+#footer_right {
+    position: relative;
+    right: 20px;}
+.title {
+    text-align: center;}
+
+.center {
+    text-align: center;}
+.bold {
+    font-weight: bold;}
+#running {
+    display: none;}
+#swimming {
+        display: none;}
+#biking {
+        display: none;}
+.arrow {
+    float: left;
+    position: relative;
+    top: 12px;
+    padding-right: 10px;}
+.images {
+    width: 350px;
+    height: auto;
+    max-width: 100%;}
+.images2 {
+    width: auto;
+    height: 260px;
+    max-width: 100%;
+    padding: 5px;}
+.images3 {
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    padding: 5px;}
+.space {
+    padding: 5px;}
+.clickme {
+     cursor:default;}
+.flowright {
+    float: right;   }
+@media only screen and (min-width: 767px) {
+   footer ul li.hor { 
+    display: inline;
+    padding: 15px; 
+    list-style-type: none;
+       left: 10px;} 
+    .email {
+    width: 600px;
+    height: 200px;}
+
+.menu_button {
+    padding: 0px;}
+} /*                                                End of media only for PC                               */
+@media only screen and (max-width: 767px) {
+    footer ul li.hor { 
+    padding: 0px;   
+    list-style-type: none;}
+.email {
+    width: 100%;
+    height: 300px;}
+.menu_button {
+    padding: 15px;}
+}/*                                                 End of Media only for Mobile                              */
